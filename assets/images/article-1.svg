@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+    <rect width="600" height="380" rx="16" fill="#F5F2EB"/>
+    <!-- Subtle Botanical Lines -->
+    <path d="M400 380 C450 250 520 180 600 120" stroke="#DED3C4" stroke-width="2"/>
+    <circle cx="480" cy="180" r="110" fill="#EFE9DE" opacity="0.6"/>
+    <!-- Category Pill -->
+    <g transform="translate(36, 40)">
+      <rect width="140" height="30" rx="15" fill="#263B34"/>
+      <text x="70" y="19" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#F5F2EB" text-anchor="middle">Korean Beauty</text>
+    </g>
+    <!-- Article Graphic Shapes -->
+    <g transform="translate(380, 80)">
+      <circle cx="90" cy="90" r="60" stroke="#A8B5A0" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <rect x="70" y="40" width="40" height="100" rx="10" fill="#263B34"/>
+      <rect x="76" y="25" width="28" height="15" rx="3" fill="#DED3C4"/>
+    </g>
+    <!-- Title and Metadata in image -->
+    <text x="36" y="220" font-family="'Playfair Display', serif" font-size="24" font-weight="600" fill="#263B34" width="450">
+      <tspan x="36" dy="0">The 10-Step Korean Skincare Rout...</tspan>
+    </text>
+    <text x="36" y="310" font-family="'Inter', sans-serif" font-size="12" fill="#454A45">May 14, 2026 · 7 min read</text>
+  </svg>

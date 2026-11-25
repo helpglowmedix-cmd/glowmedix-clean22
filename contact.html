@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager / Google Analytics (GTM-K8QK2V74) -->
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-K8QK2V74"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us & Editorial Inquiries — GlowMedix</title>
+  <meta name="description" content="Get in touch with the GlowMedix editorial team for story ideas, PR review submissions, corrections, or reader feedback. Official contact: help@glowmedix.com.">
+  <link rel="canonical" href="https://glowmedix.com/contact.html">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+  <link rel="stylesheet" href="/assets/css/typography.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-container">
+      <div class="header-inner">
+        <a href="/index.html" class="site-logo">
+          <img src="/assets/images/logo.svg" alt="GlowMedix" width="220" height="42">
+        </a>
+        <nav class="nav-desktop">
+          <a href="/index.html" class="nav-link">Home</a>
+          <a href="/blog.html" class="nav-link">Blog & Guides</a>
+          <a href="/about.html" class="nav-link">About</a>
+          <a href="/contact.html" class="nav-link active">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="site-section bg-cream" style="padding-top: 3rem;">
+    <div class="site-container-narrow">
+      <nav class="breadcrumbs-nav" aria-label="Breadcrumb">
+        <ol class="breadcrumbs-list">
+          <li><a href="/index.html">Home</a></li>
+          <li class="current">Contact Us</li>
+        </ol>
+      </nav>
+
+      <div class="article-header">
+        <span class="eyebrow">Get In Touch</span>
+        <h1>Contact the GlowMedix Team</h1>
+        <p class="article-intro">
+          We welcome thoughtful questions, cosmetic formulation tips, brand PR submissions for editorial testing, and factual corrections.
+        </p>
+      </div>
+
+      <!-- Support & Contact Cards -->
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem;">
+        <div style="background: var(--color-white); border-radius: var(--radius-md); border: 1px solid var(--color-border); padding: 2rem; box-shadow: var(--shadow-sm);">
+          <h3 style="font-size: var(--text-lg); margin-bottom: 0.5rem; color: var(--color-primary);">Direct Editorial Desk</h3>
+          <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: 1rem;">
+            For editorial questions, article corrections, or reader inquiries:
+          </p>
+          <p style="font-size: var(--text-base); font-weight: 600;">
+            <a href="mailto:help@glowmedix.com" style="color: var(--color-primary); text-decoration: underline;">help@glowmedix.com</a>
+          </p>
+          <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-top: 0.5rem;">
+            Configurable website contact address. Inquiries are processed during standard editorial desk hours.
+          </p>
+        </div>
+
+        <div style="background: var(--color-white); border-radius: var(--radius-md); border: 1px solid var(--color-border); padding: 2rem; box-shadow: var(--shadow-sm);">
+          <h3 style="font-size: var(--text-lg); margin-bottom: 0.5rem; color: var(--color-primary);">PR & Review Submissions</h3>
+          <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: 1rem;">
+            For cosmetic labs, clean beauty brands, and PR sample evaluation:
+          </p>
+          <p style="font-size: var(--text-base); font-weight: 600;">
+            <a href="mailto:help@glowmedix.com?subject=PR%20Review%20Submission" style="color: var(--color-primary); text-decoration: underline;">help@glowmedix.com</a>
+          </p>
+          <p style="font-size: var(--text-xs); color: var(--color-text-muted); margin-top: 0.5rem;">
+            Please note: We do not accept paid guarantees of positive editorial coverage.
+          </p>
+        </div>
+      </div>
+
+      <div style="background: var(--color-white); border-radius: var(--radius-md); border: 1px solid var(--color-border); padding: 3rem 2.5rem; box-shadow: var(--shadow-sm); margin-bottom: 3rem;">
+        <h2 style="font-size: var(--text-xl); margin-bottom: 1.5rem; color: var(--color-primary);">Send an Editorial Dispatch</h2>
+        <form action="#" method="POST" id="contact-form" onsubmit="handleContactSubmit(event, this);">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+            <div>
+              <label style="display: block; font-size: var(--text-xs); font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem; color: var(--color-primary);">Your Full Name</label>
+              <input type="text" id="contact-name" required placeholder="Jane Doe" style="width: 100%; padding: 0.875rem 1rem; border: 1.5px solid var(--color-border); border-radius: var(--radius-sm); font-family: var(--font-sans); outline: none;">
+            </div>
+            <div>
+              <label style="display: block; font-size: var(--text-xs); font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem; color: var(--color-primary);">Email Address</label>
+              <input type="email" id="contact-email" required placeholder="jane@example.com" style="width: 100%; padding: 0.875rem 1rem; border: 1.5px solid var(--color-border); border-radius: var(--radius-sm); font-family: var(--font-sans); outline: none;">
+            </div>
+          </div>
+          <div style="margin-bottom: 1.5rem;">
+            <label style="display: block; font-size: var(--text-xs); font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem; color: var(--color-primary);">Subject / Department</label>
+            <select id="contact-subject" style="width: 100%; padding: 0.875rem 1rem; border: 1.5px solid var(--color-border); border-radius: var(--radius-sm); font-family: var(--font-sans); background: #FFF; outline: none;">
+              <option>General Editorial Inquiry</option>
+              <option>Product Review / PR Submission</option>
+              <option>Correction or Article Update</option>
+              <option>Affiliate & Commercial Partnership</option>
+            </select>
+          </div>
+          <div style="margin-bottom: 2rem;">
+            <label style="display: block; font-size: var(--text-xs); font-weight: 600; text-transform: uppercase; margin-bottom: 0.5rem; color: var(--color-primary);">Message</label>
+            <textarea id="contact-message" rows="6" required placeholder="How can our editorial desk assist you?" style="width: 100%; padding: 0.875rem 1rem; border: 1.5px solid var(--color-border); border-radius: var(--radius-sm); font-family: var(--font-sans); outline: none;"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Compose & Send In Mail Client</button>
+          <div id="contact-alert" style="display: none; margin-top: 1.25rem; padding: 1.25rem; background: rgba(222, 211, 196, 0.35); border: 1px solid var(--color-border); color: var(--color-primary); border-radius: var(--radius-sm); text-align: left; font-size: var(--text-sm); line-height: 1.5;">
+            <strong>Static Deployment Notice:</strong> Server-side automated form transmission is not active in this static environment. No message was sent automatically without an active server backend.<br><br>
+            Your email client has been opened addressed directly to <strong>help@glowmedix.com</strong>.<br>
+            If your mail app did not open automatically, <a id="contact-direct-mailto" href="mailto:help@glowmedix.com" style="color: var(--color-primary); font-weight: bold; text-decoration: underline;">click here to email help@glowmedix.com directly</a>.
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <a href="/index.html" class="footer-logo">
+            <img src="/assets/images/logo-white.svg" alt="GlowMedix" width="200" height="38">
+          </a>
+          <p>
+            GlowMedix helps readers discover skincare products, explore beauty trends, compare beauty essentials and access useful educational guides across the USA, UK, Canada and Australia.
+          </p>
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.85rem; margin-top: 0.5rem;">
+            Official Contact: <a href="mailto:help@glowmedix.com" style="color: #A8B5A0; text-decoration: underline;">help@glowmedix.com</a>
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog.html">Editorial Guides</a></li>
+            <li><a href="/about.html">About GlowMedix</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Categories</h4>
+          <ul class="footer-links">
+            <li><a href="/category/skincare.html">Skincare</a></li>
+            <li><a href="/category/korean-beauty.html">Korean Beauty</a></li>
+            <li><a href="/category/haircare.html">Haircare</a></li>
+            <li><a href="/category/beauty-tools.html">Beauty Tools</a></li>
+            <li><a href="/category/wellness.html">Wellness</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Legal & Policies</h4>
+          <ul class="footer-links">
+            <li><a href="/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+            <li><a href="/editorial-policy.html">Editorial Policy</a></li>
+            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/contact.html">Support & PR</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-disclaimer">
+          <strong>Affiliate & Editorial Notice:</strong> GlowMedix is an independent editorial publication. When you purchase through links on our site, we may earn an affiliate commission at no extra cost to you. All content is for informational purposes only.
+        </div>
+        <div class="footer-bottom-row">
+          <div>&copy; 2026 GlowMedix. All rights reserved. Registered domain: glowmedix.com</div>
+          <ul class="footer-legal-links">
+            <li><a href="/privacy-policy.html">Privacy</a></li>
+            <li><a href="/terms.html">Terms</a></li>
+            <li><a href="/affiliate-disclosure.html">Affiliate</a></li>
+            <li><a href="/editorial-policy.html">Editorial Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+  <script>
+    function handleContactSubmit(e, form) {
+      e.preventDefault();
+      var name = document.getElementById('contact-name') ? document.getElementById('contact-name').value : '';
+      var email = document.getElementById('contact-email') ? document.getElementById('contact-email').value : '';
+      var subject = document.getElementById('contact-subject') ? document.getElementById('contact-subject').value : 'Editorial Inquiry';
+      var message = document.getElementById('contact-message') ? document.getElementById('contact-message').value : '';
+      
+      var mailtoUri = 'mailto:help@glowmedix.com?subject=' + encodeURIComponent('[GlowMedix] ' + subject) + 
+                      '&body=' + encodeURIComponent('From: ' + name + ' (' + email + ')\n\n' + message);
+      
+      var alertBox = document.getElementById('contact-alert');
+      var directLink = document.getElementById('contact-direct-mailto');
+      if (directLink) directLink.href = mailtoUri;
+      if (alertBox) alertBox.style.display = 'block';
+      
+      window.location.href = mailtoUri;
+    }
+  </script>
+</body>
+</html>

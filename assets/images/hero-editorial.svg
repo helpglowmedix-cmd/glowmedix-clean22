@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" fill="none">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F2EB" />
+      <stop offset="60%" stop-color="#EFE9DE" />
+      <stop offset="100%" stop-color="#DED3C4" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#E8E2D7" stop-opacity="0.6" />
+    </linearGradient>
+    <linearGradient id="amberSerum" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E2B176" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#C58B43" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#263B34" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Editorial Background Arch -->
+  <rect width="800" height="680" rx="24" fill="url(#heroBg)"/>
+  
+  <!-- Architectural Arch Element -->
+  <path d="M120 680 V320 C120 180 230 80 400 80 C570 80 680 180 680 320 V680 Z" fill="#FBF9F5" opacity="0.65"/>
+  <circle cx="400" cy="220" r="140" stroke="#A8B5A0" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.4"/>
+
+  <!-- Pedestal Platform -->
+  <ellipse cx="400" cy="560" rx="260" ry="42" fill="#D2C5B3" opacity="0.5"/>
+  <ellipse cx="400" cy="552" rx="240" ry="34" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- Product 1: Botanical Treatment Jar (Left) -->
+  <g transform="translate(210, 410)" filter="url(#softShadow)">
+    <rect x="0" y="40" width="130" height="90" rx="14" fill="#FFFFFF"/>
+    <rect x="5" y="10" width="120" height="30" rx="6" fill="#263B34"/>
+    <rect x="20" y="65" width="90" height="40" rx="4" fill="#F5F2EB" stroke="#DED3C4" stroke-width="1"/>
+    <text x="65" y="82" font-family="'Playfair Display', serif" font-size="10" font-weight="600" fill="#263B34" text-anchor="middle">GLOWMEDIX</text>
+    <text x="65" y="94" font-family="'Inter', sans-serif" font-size="6" fill="#A8B5A0" text-anchor="middle" letter-spacing="0.1em">CERAMIDE BALM</text>
+  </g>
+
+  <!-- Product 2: Luxury Dropper Serum Bottle (Center Hero) -->
+  <g transform="translate(350, 240)" filter="url(#softShadow)">
+    <!-- Glass Bottle Body -->
+    <rect x="15" y="100" width="100" height="190" rx="20" fill="url(#glass)" stroke="#FFFFFF" stroke-width="2"/>
+    <rect x="25" y="130" width="80" height="150" rx="12" fill="url(#amberSerum)"/>
+    <!-- Dropper Collar -->
+    <rect x="45" y="60" width="40" height="40" rx="4" fill="#DED3C4"/>
+    <rect x="42" y="70" width="46" height="8" rx="2" fill="#263B34"/>
+    <!-- Rubber Bulb -->
+    <path d="M52 60 C52 35 78 35 78 60 Z" fill="#263B34"/>
+    <!-- Label -->
+    <rect x="30" y="160" width="70" height="80" rx="4" fill="#FFFFFF" opacity="0.95"/>
+    <text x="65" y="185" font-family="'Playfair Display', serif" font-size="9" font-weight="600" fill="#263B34" text-anchor="middle">PEPTIDE +</text>
+    <text x="65" y="197" font-family="'Inter', sans-serif" font-size="6" fill="#A8B5A0" text-anchor="middle" letter-spacing="0.12em">ACTIVE SERUM</text>
+    <text x="65" y="215" font-family="'Inter', sans-serif" font-size="6" font-weight="500" fill="#454A45" text-anchor="middle">30ml / 1.0 fl oz</text>
+  </g>
+
+  <!-- Product 3: Sleek Hydrating Mist Bottle (Right) -->
+  <g transform="translate(490, 310)" filter="url(#softShadow)">
+    <rect x="15" y="70" width="75" height="210" rx="14" fill="#263B34"/>
+    <rect x="30" y="35" width="45" height="35" rx="3" fill="#DED3C4"/>
+    <rect x="38" y="15" width="29" height="20" rx="3" fill="#A8B5A0"/>
+    <!-- Gold / Cream Accent Ring -->
+    <line x1="15" y1="95" x2="90" y2="95" stroke="#DED3C4" stroke-width="2"/>
+    <text x="52" y="150" font-family="'Playfair Display', serif" font-size="9" font-weight="600" fill="#F5F2EB" text-anchor="middle">GLOW ESSENCE</text>
+    <text x="52" y="165" font-family="'Inter', sans-serif" font-size="6" fill="#A8B5A0" text-anchor="middle">Centella Asiatica</text>
+  </g>
+
+  <!-- Organic Botanical Leaf Branch Accent -->
+  <g transform="translate(140, 160)" stroke="#A8B5A0" stroke-width="2" fill="none" opacity="0.75">
+    <path d="M0 240 Q60 140 160 80"/>
+    <path d="M40 190 Q30 160 55 160 Q70 180 50 200" fill="#A8B5A0" opacity="0.3"/>
+    <path d="M90 145 Q85 115 110 115 Q120 135 100 155" fill="#A8B5A0" opacity="0.3"/>
+    <path d="M140 98 Q145 70 170 75 Q175 98 150 108" fill="#A8B5A0" opacity="0.3"/>
+  </g>
+
+  <!-- Badge Overlay -->
+  <g transform="translate(80, 500)">
+    <rect width="180" height="64" rx="32" fill="#FFFFFF" filter="url(#softShadow)"/>
+    <circle cx="36" cy="32" r="18" fill="#F5F2EB"/>
+    <path d="M36 21 C33 26 30 29 30 33 C30 37 32.5 39 36 39 C39.5 39 42 37 42 33 C42 29 39 26 36 21 Z" fill="#263B34"/>
+    <text x="66" y="28" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#263B34">100% Curated</text>
+    <text x="66" y="44" font-family="'Inter', sans-serif" font-size="9" fill="#454A45">Evidence-Based Skincare</text>
+  </g>
+</svg>

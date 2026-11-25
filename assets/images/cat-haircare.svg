@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+    <rect width="400" height="300" rx="16" fill="#F5F2EB"/>
+    <circle cx="200" cy="130" r="85" fill="#EFE9DE"/>
+    <circle cx="200" cy="130" r="65" fill="#FFFFFF" stroke="#DED3C4" stroke-width="1.5"/>
+    <g transform="translate(150, 80)" stroke="#263B34" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M50 15 Q70 30 65 50 Q60 70 75 85 M40 20 Q55 35 48 55 Q42 75 55 85 M30 30 Q40 45 35 60 Q30 75 40 85"/>
+    </g>
+    <text x="200" y="240" font-family="'Playfair Display', serif" font-size="22" font-weight="600" fill="#263B34" text-anchor="middle">Haircare</text>
+    <text x="200" y="265" font-family="'Inter', sans-serif" font-size="11" fill="#454A45" text-anchor="middle">Scalp health, peptide oils & restorative masks</text>
+  </svg>

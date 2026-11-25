@@ -1,0 +1,23 @@
+# GlowMedix
+> Discover Better Beauty.
+
+Official Website: https://glowmedix.com
+Contact: help@glowmedix.com
+
+## About GlowMedix
+GlowMedix is an independent editorial beauty, skincare, and wellness content platform serving readers in the United States, United Kingdom, Canada, and Australia.
+
+## Main Content Sections
+- Discover: https://glowmedix.com/discover.html
+- Skincare: https://glowmedix.com/category/skincare.html
+- Korean Beauty: https://glowmedix.com/category/korean-beauty.html
+- Haircare: https://glowmedix.com/category/haircare.html
+- Beauty Tools: https://glowmedix.com/category/beauty-tools.html
+- Wellness: https://glowmedix.com/category/wellness.html
+- Blog & Guides: https://glowmedix.com/blog.html
+
+## Editorial & Affiliate Disclosures
+- Affiliate Disclosure: https://glowmedix.com/affiliate-disclosure.html
+- Editorial Policy: https://glowmedix.com/editorial-policy.html
+- Privacy Policy: https://glowmedix.com/privacy-policy.html
+- Terms of Service: https://glowmedix.com/terms.html

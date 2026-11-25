@@ -1,0 +1,8 @@
+{
+  "name": "glowmedix-production",
+  "version": "2.0.0",
+  "description": "GlowMedix Production Static Website",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Sitemap location
+Sitemap: https://glowmedix.com/sitemap.xml

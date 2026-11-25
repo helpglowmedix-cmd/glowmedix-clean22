@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 50" fill="none">
+  <!-- GlowMedix Luxury Botanical Mark -->
+  <g transform="translate(4, 5)">
+    <circle cx="20" cy="20" r="19" stroke="#263B34" stroke-width="1.5" fill="#F5F2EB" opacity="0.9"/>
+    <!-- Organic Leaf / Dew Droplet Silhouette -->
+    <path d="M20 7 C14 14 11 20 11 25 C11 30 15 34 20 34 C25 34 29 30 29 25 C29 20 26 14 20 7 Z" fill="#263B34"/>
+    <path d="M20 12 C18 17 17 21 17 24 C17 27 18 29 20 31 C22 29 23 27 23 24 C23 21 22 17 20 12 Z" fill="#A8B5A0"/>
+    <circle cx="20" cy="18" r="2" fill="#F5F2EB"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="56" y="27" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="600" fill="#263B34" letter-spacing="0.04em">GLOW<tspan font-weight="400" fill="#454A45">MEDIX</tspan></text>
+  <text x="58" y="38" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="8" font-weight="500" fill="#A8B5A0" letter-spacing="0.22em">DISCOVER BETTER BEAUTY</text>
+</svg>
